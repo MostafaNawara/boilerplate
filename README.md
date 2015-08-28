@@ -52,5 +52,5 @@ Any contributing will be very welcomed
 ## Happy Coding :-)
 ![That simple](https://media.giphy.com/media/nGMnDqebzDcfm/giphy.gif "That simple")
 
-## Licenece
+## Licence
 > Take it and do whatever you want to do with it. don't worry I won't sue you ;)
