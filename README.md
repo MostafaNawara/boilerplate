@@ -11,7 +11,7 @@ $ npm install && grunt
 ```
 This will be only for the first time, then later you can just run:
 ```sh
-grunt default
+$ grunt default
 ```
 
 
