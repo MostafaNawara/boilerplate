@@ -16,7 +16,7 @@ http://127.0.0.1:8080
 ```
 Now you are ready to get into work. no need to configure anything. it's already done for you. and of course, you are free to edit as it suits you.
 
-> The pre directory is where your preprocessor assets goes, and it will be rendered to post directory. and that's it.
+> The pre directory is where your preprocessor asset goes, and it will be rendered to post directory. and that's it.
 
 ### It includes some of grunt modules like:
 * [grunt-contrib-sass](https://github.com/gruntjs/grunt-contrib-sass) to compile Sass files
