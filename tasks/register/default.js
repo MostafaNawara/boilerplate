@@ -2,7 +2,7 @@
 module.exports = function (grunt) {
 	grunt.registerTask('default', function () {
 		return grunt.task.run([
-			'setup',
+			'build',
 			'connect:server',
 			'watch',
 		]);
