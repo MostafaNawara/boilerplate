@@ -7,9 +7,13 @@ module.exports = function(grunt) {
                 layout: 'byComponent',
                 copy: false,
                 install: true,
-                verbose: false,
+                verbose: true,
                 cleanTargetDir: false,
-                cleanBowerDir: false
+                cleanBowerDir: false,
+                bowerOptions: {
+                    forceLatest: true,
+                    interaction: false,
+                }
             }
         }
     });
