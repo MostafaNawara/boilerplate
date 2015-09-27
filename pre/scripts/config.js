@@ -10,33 +10,23 @@ define([], function () {
 
             'async': vendorUrl + 'requirejs-plugins/src/async',
 
-            'libs/jquery': vendorUrl + 'jquery/dist/jquery.min',
-            'libs/owl': vendorUrl + 'owl-carousel2/dist/owl.carousel.min',
-            'libs/jquery-easing': vendorUrl + 'jquery-easing-original/jquery.easing.min',
-            'libs/underscore': vendorUrl + 'underscore/underscore-min',
+            'jquery': vendorUrl + 'jquery/dist/jquery.min',
+
             'libs/webfontloader': vendorUrl + 'webfontloader/webfontloader',
+
             'libs/minivents': vendorUrl + 'minivents/minivents.min',
+        },
+        map: {
+            '*': {
+                'libs/jquery': 'jquery'
+            },
         },
         shim: {
             'libs/minivents': {
                 exports: 'Events'
             },
-            'libs/jquery': {
-                exports: '$'
-            },
-            'libs/underscore': {
-                exports: '_'
-            },
             'libs/webfontloader': {
                 exports: 'WebFont'
-            },
-            'libs/jquery-easing': {
-                deps: ['libs/jquery'],
-                exports: '$'
-            },
-            'libs/owl': {
-                deps: ['libs/jquery'],
-                exports: 'jQuery.fn.owlCarousel'
             }
         }
     });
