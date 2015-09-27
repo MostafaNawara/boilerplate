@@ -1,26 +1,22 @@
 // JsHint your javascript
-module.exports = function (grunt) {
+module.exports = function(grunt) {
 
-	// var pipeline = require('../pipeline');
+    // var pipeline = require('../pipeline');
 
-	grunt.config.set('jshint', {
-		all : [
-			'Gruntfile.js',
-		],
-		options : {
-			browser: true,
-			curly: false,
-			eqeqeq: false,
-			eqnull: true,
-			expr: true,
-			immed: true,
-			newcap: true,
-			noarg: true,
-			smarttabs: true,
-			sub: true,
-			undef: false
-		}
-	});
+    grunt.config.set('jshint', {
+        all: [
+            'Gruntfile.js',
+        ],
+        options: {
+            camelcase: true,
+            indent: 4,
+            undef: true,
+            quotmark: 'single',
+            maxlen: 80,
+            trailing: true,
+            curly: true
+        }
+    });
 
-	grunt.loadNpmTasks('grunt-contrib-jshint');
+    grunt.loadNpmTasks('grunt-contrib-jshint');
 }

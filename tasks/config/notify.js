@@ -1,45 +1,45 @@
 module.exports = function(grunt) {
 
-	grunt.config.set('notify', {
-		options: {
-		    enabled: true,
-		    max_jshint_notifications: 5,
-		    success: false,
-		    duration: 1,
-		},
+    grunt.config.set('notify', {
+        options: {
+            enabled: true,
+            max_jshint_notifications: 5,
+            success: false,
+            duration: 1,
+        },
 
-		watch: {
-			options: {
-				message: "Now, your watch begins"
-			}
-		},
-		grunt: {
-			options: {
-				message: "Gruntfile has some changes"
-			}
-		},
-		css: {
-			options: {
-				message: "Style has some changes"
-			}
-		},
-		images: {
-			options: {
-				message: "Images updated"
-			}
-		},
-		scripts: {
-			options: {
-				message: "Scripts updated"
-			}
-		},
-		html: {
-			options: {
-				message: "html has some changes"
-			}
-		},
-		// ------------
-	});
+        watch: {
+            options: {
+                message: "Now, your watch begins"
+            }
+        },
+        grunt: {
+            options: {
+                message: "Gruntfile has some changes"
+            }
+        },
+        css: {
+            options: {
+                message: "Style has some changes"
+            }
+        },
+        images: {
+            options: {
+                message: "Images updated"
+            }
+        },
+        scripts: {
+            options: {
+                message: "Scripts updated"
+            }
+        },
+        html: {
+            options: {
+                message: "html has some changes"
+            }
+        },
+        // ------------
+    });
 
-	grunt.loadNpmTasks('grunt-notify');
+    grunt.loadNpmTasks('grunt-notify');
 };
