@@ -1,6 +1,6 @@
 // Template Setup Task
 module.exports = function (grunt) {
-	grunt.registerTask('setup', function() {
+	grunt.registerTask('build', function() {
 		var arr = [
 			// 'jshint',
 			'bower',
