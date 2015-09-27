@@ -19,7 +19,7 @@ define(['../config'], function () {
 	            console.log('app.fonts.loaded');
 	        });
 
-			require(['emitter']); // emitter should be tailled
+			require(['emitter']); // emitter should be tailed
 		});
 	})
 
