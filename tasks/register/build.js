@@ -2,11 +2,10 @@
 module.exports = function (grunt) {
 	grunt.registerTask('build', function() {
 		var arr = [
-			// 'jshint',
-			'bower',
 			'clean',
 			'imagemin',
 			'svgmin',
+			'htmlmin',
 			'uglify:dev',
 			'sass:dev',
 		];

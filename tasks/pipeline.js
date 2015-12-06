@@ -6,30 +6,37 @@ var pre, post;
 
 pre = {
     scripts: {
-        dir: 'pre/scripts/',
+        dir: 'resources/scripts/',
         pattern: '**/*.js',
     },
     styles: {
-        dir: 'pre/styles/',
+        dir: 'resources/styles/',
         pattern: '**/*.scss',
-        files: ['pre/styles/importer.scss']
+        files: ['resources/styles/importer.scss']
     },
     images: {
-        dir: 'pre/images/',
+        dir: 'resources/images/',
         pattern: '**/*.{png,jpg,jpeg,svg}'
+    },
+    templates: {
+        dir: 'resources/templates/',
+        pattern: '**/*.html'
     }
 };
 
 post = {
     scripts: {
-        dir: 'post/js/'
+        dir: 'assets/js/'
     },
     styles: {
-        dir: 'post/css/',
-        files: 'post/css/app.css'
+        dir: 'assets/css/',
+        files: 'assets/css/app.css'
     },
     images: {
-        dir: 'post/images/',
+        dir: 'assets/images/',
+    },
+    templates: {
+        dir: 'assets/templates/',
     }
 }
 

@@ -43,6 +43,15 @@ module.exports = function (grunt) {
 			tasks : ['clean:scripts', 'uglify:dev', 'notify:scripts']
 		},
 
+		// htmlmin
+		htmlmin: {
+			files: pipeline.pre.templates.dir + pipeline.pre.templates.pattern,
+			options: {
+				livereload: true,
+			},
+			tasks : ['clean:templates', 'htmlmin:dev', 'notify:templates']
+		},
+
 		html: {
 			files: ['**/*.html'],
 			options: {

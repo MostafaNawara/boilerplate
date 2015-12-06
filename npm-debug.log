@@ -1,0 +1,756 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@2.14.7
+3 info using node@v4.2.3
+4 verbose readDependencies loading dependencies from C:\Users\Sam\Desktop\boilerplate\package.json
+5 warn package.json @ No repository field.
+6 warn package.json @ No license field.
+7 verbose install where, deps [ 'C:\\Users\\Sam\\Desktop\\boilerplate',
+7 verbose install   [ 'grunt',
+7 verbose install     'grunt-bower-task',
+7 verbose install     'grunt-cli',
+7 verbose install     'grunt-contrib-clean',
+7 verbose install     'grunt-contrib-connect',
+7 verbose install     'grunt-contrib-copy',
+7 verbose install     'grunt-contrib-htmlmin',
+7 verbose install     'grunt-contrib-imagemin',
+7 verbose install     'grunt-contrib-jshint',
+7 verbose install     'grunt-contrib-sass',
+7 verbose install     'grunt-contrib-uglify',
+7 verbose install     'grunt-contrib-watch',
+7 verbose install     'grunt-notify',
+7 verbose install     'grunt-svgmin',
+7 verbose install     'include-all' ] ]
+8 verbose install where, peers [ 'C:\\Users\\Sam\\Desktop\\boilerplate', [] ]
+9 verbose installManyTop reading for lifecycle C:\Users\Sam\Desktop\boilerplate\package.json
+10 info preinstall @
+11 verbose installManyTop reading scoped package data from C:\Users\Sam\Desktop\boilerplate\node_modules\bower\package.json
+12 verbose installManyTop reading scoped package data from C:\Users\Sam\Desktop\boilerplate\node_modules\grunt\package.json
+13 verbose installManyTop reading scoped package data from C:\Users\Sam\Desktop\boilerplate\node_modules\grunt-bower-task\package.json
+14 verbose installManyTop reading scoped package data from C:\Users\Sam\Desktop\boilerplate\node_modules\grunt-cli\package.json
+15 verbose installManyTop reading scoped package data from C:\Users\Sam\Desktop\boilerplate\node_modules\grunt-contrib-clean\package.json
+16 verbose installManyTop reading scoped package data from C:\Users\Sam\Desktop\boilerplate\node_modules\grunt-contrib-connect\package.json
+17 verbose installManyTop reading scoped package data from C:\Users\Sam\Desktop\boilerplate\node_modules\grunt-contrib-copy\package.json
+18 verbose installManyTop reading scoped package data from C:\Users\Sam\Desktop\boilerplate\node_modules\grunt-contrib-htmlmin\package.json
+19 verbose installManyTop reading scoped package data from C:\Users\Sam\Desktop\boilerplate\node_modules\grunt-contrib-imagemin\package.json
+20 verbose installManyTop reading scoped package data from C:\Users\Sam\Desktop\boilerplate\node_modules\grunt-contrib-jshint\package.json
+21 verbose installManyTop reading scoped package data from C:\Users\Sam\Desktop\boilerplate\node_modules\grunt-contrib-sass\package.json
+22 verbose installManyTop reading scoped package data from C:\Users\Sam\Desktop\boilerplate\node_modules\grunt-contrib-uglify\package.json
+23 verbose installManyTop reading scoped package data from C:\Users\Sam\Desktop\boilerplate\node_modules\grunt-contrib-watch\package.json
+24 verbose installManyTop reading scoped package data from C:\Users\Sam\Desktop\boilerplate\node_modules\grunt-notify\package.json
+25 verbose installManyTop reading scoped package data from C:\Users\Sam\Desktop\boilerplate\node_modules\grunt-svgmin\package.json
+26 verbose installManyTop reading scoped package data from C:\Users\Sam\Desktop\boilerplate\node_modules\include-all\package.json
+27 info package.json grunt@0.4.5 No license field.
+28 info package.json grunt-contrib-clean@0.6.0 No license field.
+29 info package.json grunt-cli@0.1.13 No license field.
+30 info package.json grunt-contrib-imagemin@0.1.4 No license field.
+31 info package.json grunt-contrib-sass@0.9.2 No license field.
+32 info package.json grunt-contrib-jshint@0.1.1 No license field.
+33 info package.json grunt-contrib-watch@0.5.3 No license field.
+34 info package.json grunt-bower-task@0.4.0 No license field.
+35 info package.json grunt-svgmin@2.0.1 No license field.
+36 verbose readDependencies loading dependencies from C:\Users\Sam\Desktop\boilerplate\package.json
+37 verbose targetResolver reading package data from C:\Users\Sam\Desktop\boilerplate\node_modules\bower\package.json
+38 verbose targetResolver reading package data from C:\Users\Sam\Desktop\boilerplate\node_modules\grunt\package.json
+39 verbose targetResolver reading package data from C:\Users\Sam\Desktop\boilerplate\node_modules\grunt-bower-task\package.json
+40 verbose targetResolver reading package data from C:\Users\Sam\Desktop\boilerplate\node_modules\grunt-cli\package.json
+41 verbose targetResolver reading package data from C:\Users\Sam\Desktop\boilerplate\node_modules\grunt-contrib-clean\package.json
+42 verbose targetResolver reading package data from C:\Users\Sam\Desktop\boilerplate\node_modules\grunt-contrib-connect\package.json
+43 verbose targetResolver reading package data from C:\Users\Sam\Desktop\boilerplate\node_modules\grunt-contrib-copy\package.json
+44 verbose targetResolver reading package data from C:\Users\Sam\Desktop\boilerplate\node_modules\grunt-contrib-htmlmin\package.json
+45 verbose targetResolver reading package data from C:\Users\Sam\Desktop\boilerplate\node_modules\grunt-contrib-imagemin\package.json
+46 verbose targetResolver reading package data from C:\Users\Sam\Desktop\boilerplate\node_modules\grunt-contrib-jshint\package.json
+47 verbose targetResolver reading package data from C:\Users\Sam\Desktop\boilerplate\node_modules\grunt-contrib-sass\package.json
+48 verbose targetResolver reading package data from C:\Users\Sam\Desktop\boilerplate\node_modules\grunt-contrib-uglify\package.json
+49 verbose targetResolver reading package data from C:\Users\Sam\Desktop\boilerplate\node_modules\grunt-contrib-watch\package.json
+50 verbose targetResolver reading package data from C:\Users\Sam\Desktop\boilerplate\node_modules\grunt-notify\package.json
+51 verbose targetResolver reading package data from C:\Users\Sam\Desktop\boilerplate\node_modules\grunt-svgmin\package.json
+52 verbose targetResolver reading package data from C:\Users\Sam\Desktop\boilerplate\node_modules\include-all\package.json
+53 verbose targetResolver reading package data from C:\Users\Sam\Desktop\boilerplate\node_modules\.bin\bower\package.json
+54 verbose targetResolver reading package data from C:\Users\Sam\Desktop\boilerplate\node_modules\.bin\bower.cmd\package.json
+55 verbose targetResolver reading package data from C:\Users\Sam\Desktop\boilerplate\node_modules\.bin\grunt\package.json
+56 verbose targetResolver reading package data from C:\Users\Sam\Desktop\boilerplate\node_modules\.bin\grunt.cmd\package.json
+57 verbose already installed skipping grunt-contrib-sass@~0.9.2 C:\Users\Sam\Desktop\boilerplate
+58 verbose already installed skipping grunt-contrib-uglify@^0.9.1 C:\Users\Sam\Desktop\boilerplate
+59 verbose already installed skipping grunt-contrib-watch@~0.5.1 C:\Users\Sam\Desktop\boilerplate
+60 verbose already installed skipping grunt-notify@^0.4.1 C:\Users\Sam\Desktop\boilerplate
+61 verbose already installed skipping grunt-svgmin@^2.0.1 C:\Users\Sam\Desktop\boilerplate
+62 verbose already installed skipping include-all@^0.1.6 C:\Users\Sam\Desktop\boilerplate
+63 verbose already installed skipping grunt@~0.4.1 C:\Users\Sam\Desktop\boilerplate
+64 verbose already installed skipping grunt-bower-task@^0.4.0 C:\Users\Sam\Desktop\boilerplate
+65 verbose already installed skipping grunt-cli@^0.1.13 C:\Users\Sam\Desktop\boilerplate
+66 verbose already installed skipping grunt-contrib-clean@^0.6.0 C:\Users\Sam\Desktop\boilerplate
+67 verbose already installed skipping grunt-contrib-connect@^0.11.2 C:\Users\Sam\Desktop\boilerplate
+68 verbose already installed skipping grunt-contrib-copy@^0.8.0 C:\Users\Sam\Desktop\boilerplate
+69 verbose already installed skipping grunt-contrib-htmlmin@^0.6.0 C:\Users\Sam\Desktop\boilerplate
+70 verbose already installed skipping grunt-contrib-imagemin@~0.1.4 C:\Users\Sam\Desktop\boilerplate
+71 verbose already installed skipping grunt-contrib-jshint@~0.1.1 C:\Users\Sam\Desktop\boilerplate
+72 silly install resolved []
+73 info build C:\Users\Sam\Desktop\boilerplate
+74 info linkStuff @
+75 silly linkStuff @ has C:\Users\Sam\Desktop as its parent node_modules
+76 verbose linkBins @
+77 verbose linkMans @
+78 verbose rebuildBundles @
+79 verbose rebuildBundles [ '.bin',
+79 verbose rebuildBundles   'bower',
+79 verbose rebuildBundles   'grunt',
+79 verbose rebuildBundles   'grunt-bower-task',
+79 verbose rebuildBundles   'grunt-cli',
+79 verbose rebuildBundles   'grunt-contrib-clean',
+79 verbose rebuildBundles   'grunt-contrib-connect',
+79 verbose rebuildBundles   'grunt-contrib-copy',
+79 verbose rebuildBundles   'grunt-contrib-htmlmin',
+79 verbose rebuildBundles   'grunt-contrib-imagemin',
+79 verbose rebuildBundles   'grunt-contrib-jshint',
+79 verbose rebuildBundles   'grunt-contrib-sass',
+79 verbose rebuildBundles   'grunt-contrib-uglify',
+79 verbose rebuildBundles   'grunt-contrib-watch',
+79 verbose rebuildBundles   'grunt-notify',
+79 verbose rebuildBundles   'grunt-svgmin',
+79 verbose rebuildBundles   'include-all' ]
+80 verbose rebuild bundle C:\Users\Sam\Desktop\boilerplate\node_modules\bower
+81 info build C:\Users\Sam\Desktop\boilerplate\node_modules\bower
+82 info preinstall bower@1.6.9
+83 info linkStuff bower@1.6.9
+84 silly linkStuff bower@1.6.9 has C:\Users\Sam\Desktop\boilerplate\node_modules as its parent node_modules
+85 verbose linkBins bower@1.6.9
+86 verbose link bins [ { bower: 'bin/bower' },
+86 verbose link bins   'C:\\Users\\Sam\\Desktop\\boilerplate\\node_modules\\.bin',
+86 verbose link bins   false ]
+87 verbose linkMans bower@1.6.9
+88 verbose rebuildBundles bower@1.6.9
+89 verbose rebuildBundles [ '.bin',
+89 verbose rebuildBundles   'abbrev',
+89 verbose rebuildBundles   'archy',
+89 verbose rebuildBundles   'bower-config',
+89 verbose rebuildBundles   'bower-endpoint-parser',
+89 verbose rebuildBundles   'bower-json',
+89 verbose rebuildBundles   'bower-logger',
+89 verbose rebuildBundles   'bower-registry-client',
+89 verbose rebuildBundles   'cardinal',
+89 verbose rebuildBundles   'chalk',
+89 verbose rebuildBundles   'chmodr',
+89 verbose rebuildBundles   'configstore',
+89 verbose rebuildBundles   'decompress-zip',
+89 verbose rebuildBundles   'destroy',
+89 verbose rebuildBundles   'fs-write-stream-atomic',
+89 verbose rebuildBundles   'fstream',
+89 verbose rebuildBundles   'fstream-ignore',
+89 verbose rebuildBundles   'github',
+89 verbose rebuildBundles   'glob',
+89 verbose rebuildBundles   'graceful-fs',
+89 verbose rebuildBundles   'handlebars',
+89 verbose rebuildBundles   'inquirer',
+89 verbose rebuildBundles   'insight',
+89 verbose rebuildBundles   'is-root',
+89 verbose rebuildBundles   'junk',
+89 verbose rebuildBundles   'lockfile',
+89 verbose rebuildBundles   'lru-cache',
+89 verbose rebuildBundles   'md5-hex',
+89 verbose rebuildBundles   'mkdirp',
+89 verbose rebuildBundles   'mout',
+89 verbose rebuildBundles   'nopt',
+89 verbose rebuildBundles   'opn',
+89 verbose rebuildBundles   'p-throttler',
+89 verbose rebuildBundles   'promptly',
+89 verbose rebuildBundles   'q',
+89 verbose rebuildBundles   'request',
+89 verbose rebuildBundles   'request-progress',
+89 verbose rebuildBundles   'retry',
+89 verbose rebuildBundles   'rimraf',
+89 verbose rebuildBundles   'semver',
+89 verbose rebuildBundles   'shell-quote',
+89 verbose rebuildBundles   'stringify-object',
+89 verbose rebuildBundles   'tar-fs',
+89 verbose rebuildBundles   'tmp',
+89 verbose rebuildBundles   'update-notifier',
+89 verbose rebuildBundles   'user-home',
+89 verbose rebuildBundles   'which' ]
+90 verbose rebuild bundle C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\abbrev
+91 info build C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\abbrev
+92 info preinstall abbrev@1.0.7
+93 info linkStuff abbrev@1.0.7
+94 silly linkStuff abbrev@1.0.7 has C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules as its parent node_modules
+95 verbose linkBins abbrev@1.0.7
+96 verbose linkMans abbrev@1.0.7
+97 verbose rebuildBundles abbrev@1.0.7
+98 info install abbrev@1.0.7
+99 info postinstall abbrev@1.0.7
+100 verbose rebuild bundle C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\archy
+101 info build C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\archy
+102 info preinstall archy@1.0.0
+103 info linkStuff archy@1.0.0
+104 silly linkStuff archy@1.0.0 has C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules as its parent node_modules
+105 verbose linkBins archy@1.0.0
+106 verbose linkMans archy@1.0.0
+107 verbose rebuildBundles archy@1.0.0
+108 info install archy@1.0.0
+109 info postinstall archy@1.0.0
+110 verbose rebuild bundle C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\bower-config
+111 info build C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\bower-config
+112 info preinstall bower-config@1.2.3
+113 info linkStuff bower-config@1.2.3
+114 silly linkStuff bower-config@1.2.3 has C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules as its parent node_modules
+115 verbose linkBins bower-config@1.2.3
+116 verbose linkMans bower-config@1.2.3
+117 verbose rebuildBundles bower-config@1.2.3
+118 verbose rebuildBundles [ 'graceful-fs', 'optimist', 'osenv' ]
+119 info install bower-config@1.2.3
+120 info postinstall bower-config@1.2.3
+121 verbose rebuild bundle C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\bower-endpoint-parser
+122 info build C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\bower-endpoint-parser
+123 info preinstall bower-endpoint-parser@0.2.2
+124 info linkStuff bower-endpoint-parser@0.2.2
+125 silly linkStuff bower-endpoint-parser@0.2.2 has C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules as its parent node_modules
+126 verbose linkBins bower-endpoint-parser@0.2.2
+127 verbose linkMans bower-endpoint-parser@0.2.2
+128 verbose rebuildBundles bower-endpoint-parser@0.2.2
+129 info install bower-endpoint-parser@0.2.2
+130 info postinstall bower-endpoint-parser@0.2.2
+131 verbose rebuild bundle C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\bower-json
+132 info build C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\bower-json
+133 info preinstall bower-json@0.4.0
+134 info linkStuff bower-json@0.4.0
+135 silly linkStuff bower-json@0.4.0 has C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules as its parent node_modules
+136 verbose linkBins bower-json@0.4.0
+137 verbose linkMans bower-json@0.4.0
+138 verbose rebuildBundles bower-json@0.4.0
+139 verbose rebuildBundles [ 'deep-extend', 'graceful-fs', 'intersect' ]
+140 info install bower-json@0.4.0
+141 info postinstall bower-json@0.4.0
+142 verbose rebuild bundle C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\bower-logger
+143 info build C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\bower-logger
+144 info preinstall bower-logger@0.2.2
+145 info linkStuff bower-logger@0.2.2
+146 silly linkStuff bower-logger@0.2.2 has C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules as its parent node_modules
+147 verbose linkBins bower-logger@0.2.2
+148 verbose linkMans bower-logger@0.2.2
+149 verbose rebuildBundles bower-logger@0.2.2
+150 info install bower-logger@0.2.2
+151 info postinstall bower-logger@0.2.2
+152 verbose rebuild bundle C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\bower-registry-client
+153 info build C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\bower-registry-client
+154 info preinstall bower-registry-client@1.0.0
+155 info linkStuff bower-registry-client@1.0.0
+156 silly linkStuff bower-registry-client@1.0.0 has C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules as its parent node_modules
+157 verbose linkBins bower-registry-client@1.0.0
+158 verbose linkMans bower-registry-client@1.0.0
+159 verbose rebuildBundles bower-registry-client@1.0.0
+160 verbose rebuildBundles [ 'async', 'graceful-fs', 'mkdirp', 'request-replay' ]
+161 info install bower-registry-client@1.0.0
+162 info postinstall bower-registry-client@1.0.0
+163 verbose rebuild bundle C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\cardinal
+164 info build C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\cardinal
+165 info preinstall cardinal@0.4.4
+166 info linkStuff cardinal@0.4.4
+167 silly linkStuff cardinal@0.4.4 has C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules as its parent node_modules
+168 verbose linkBins cardinal@0.4.4
+169 verbose link bins [ { cdl: './bin/cdl.js' },
+169 verbose link bins   'C:\\Users\\Sam\\Desktop\\boilerplate\\node_modules\\bower\\node_modules\\.bin',
+169 verbose link bins   false ]
+170 verbose linkMans cardinal@0.4.4
+171 verbose rebuildBundles cardinal@0.4.4
+172 verbose rebuildBundles [ 'ansicolors', 'redeyed' ]
+173 info install cardinal@0.4.4
+174 info postinstall cardinal@0.4.4
+175 verbose rebuild bundle C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\chalk
+176 info build C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\chalk
+177 info preinstall chalk@1.1.1
+178 info linkStuff chalk@1.1.1
+179 silly linkStuff chalk@1.1.1 has C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules as its parent node_modules
+180 verbose linkBins chalk@1.1.1
+181 verbose linkMans chalk@1.1.1
+182 verbose rebuildBundles chalk@1.1.1
+183 verbose rebuildBundles [ 'ansi-styles',
+183 verbose rebuildBundles   'escape-string-regexp',
+183 verbose rebuildBundles   'has-ansi',
+183 verbose rebuildBundles   'strip-ansi',
+183 verbose rebuildBundles   'supports-color' ]
+184 info install chalk@1.1.1
+185 info postinstall chalk@1.1.1
+186 verbose rebuild bundle C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\chmodr
+187 info build C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\chmodr
+188 info preinstall chmodr@1.0.2
+189 info linkStuff chmodr@1.0.2
+190 silly linkStuff chmodr@1.0.2 has C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules as its parent node_modules
+191 verbose linkBins chmodr@1.0.2
+192 verbose linkMans chmodr@1.0.2
+193 verbose rebuildBundles chmodr@1.0.2
+194 info install chmodr@1.0.2
+195 info postinstall chmodr@1.0.2
+196 verbose rebuild bundle C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\configstore
+197 info build C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\configstore
+198 info preinstall configstore@0.3.2
+199 info linkStuff configstore@0.3.2
+200 silly linkStuff configstore@0.3.2 has C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules as its parent node_modules
+201 verbose linkBins configstore@0.3.2
+202 verbose linkMans configstore@0.3.2
+203 verbose rebuildBundles configstore@0.3.2
+204 verbose rebuildBundles [ 'js-yaml', 'object-assign', 'osenv', 'uuid', 'xdg-basedir' ]
+205 info install configstore@0.3.2
+206 info postinstall configstore@0.3.2
+207 verbose rebuild bundle C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\decompress-zip
+208 info build C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\decompress-zip
+209 info preinstall decompress-zip@0.1.0
+210 info linkStuff decompress-zip@0.1.0
+211 silly linkStuff decompress-zip@0.1.0 has C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules as its parent node_modules
+212 verbose linkBins decompress-zip@0.1.0
+213 verbose link bins [ { 'decompress-zip': 'bin/decompress-zip' },
+213 verbose link bins   'C:\\Users\\Sam\\Desktop\\boilerplate\\node_modules\\bower\\node_modules\\.bin',
+213 verbose link bins   false ]
+214 verbose linkMans decompress-zip@0.1.0
+215 verbose rebuildBundles decompress-zip@0.1.0
+216 verbose rebuildBundles [ 'binary', 'mkpath', 'readable-stream', 'touch' ]
+217 info install decompress-zip@0.1.0
+218 info postinstall decompress-zip@0.1.0
+219 verbose rebuild bundle C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\destroy
+220 info build C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\destroy
+221 info preinstall destroy@1.0.3
+222 info linkStuff destroy@1.0.3
+223 silly linkStuff destroy@1.0.3 has C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules as its parent node_modules
+224 verbose linkBins destroy@1.0.3
+225 verbose linkMans destroy@1.0.3
+226 verbose rebuildBundles destroy@1.0.3
+227 info install destroy@1.0.3
+228 info postinstall destroy@1.0.3
+229 verbose rebuild bundle C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\fs-write-stream-atomic
+230 info build C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\fs-write-stream-atomic
+231 info preinstall fs-write-stream-atomic@1.0.5
+232 info linkStuff fs-write-stream-atomic@1.0.5
+233 silly linkStuff fs-write-stream-atomic@1.0.5 has C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules as its parent node_modules
+234 verbose linkBins fs-write-stream-atomic@1.0.5
+235 verbose linkMans fs-write-stream-atomic@1.0.5
+236 verbose rebuildBundles fs-write-stream-atomic@1.0.5
+237 verbose rebuildBundles [ 'graceful-fs', 'imurmurhash' ]
+238 info install fs-write-stream-atomic@1.0.5
+239 info postinstall fs-write-stream-atomic@1.0.5
+240 verbose rebuild bundle C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\fstream
+241 info build C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\fstream
+242 info preinstall fstream@1.0.8
+243 info linkStuff fstream@1.0.8
+244 silly linkStuff fstream@1.0.8 has C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules as its parent node_modules
+245 verbose linkBins fstream@1.0.8
+246 verbose linkMans fstream@1.0.8
+247 verbose rebuildBundles fstream@1.0.8
+248 verbose rebuildBundles [ 'graceful-fs', 'inherits' ]
+249 info install fstream@1.0.8
+250 info postinstall fstream@1.0.8
+251 verbose rebuild bundle C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\fstream-ignore
+252 info build C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\fstream-ignore
+253 info preinstall fstream-ignore@1.0.3
+254 info linkStuff fstream-ignore@1.0.3
+255 silly linkStuff fstream-ignore@1.0.3 has C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules as its parent node_modules
+256 verbose linkBins fstream-ignore@1.0.3
+257 verbose linkMans fstream-ignore@1.0.3
+258 verbose rebuildBundles fstream-ignore@1.0.3
+259 verbose rebuildBundles [ 'inherits', 'minimatch' ]
+260 info install fstream-ignore@1.0.3
+261 info postinstall fstream-ignore@1.0.3
+262 verbose rebuild bundle C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\github
+263 info build C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\github
+264 info preinstall github@0.2.4
+265 info linkStuff github@0.2.4
+266 silly linkStuff github@0.2.4 has C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules as its parent node_modules
+267 verbose linkBins github@0.2.4
+268 verbose linkMans github@0.2.4
+269 verbose rebuildBundles github@0.2.4
+270 verbose rebuildBundles [ 'mime' ]
+271 info install github@0.2.4
+272 info postinstall github@0.2.4
+273 verbose rebuild bundle C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\glob
+274 info build C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\glob
+275 info preinstall glob@4.5.3
+276 info linkStuff glob@4.5.3
+277 silly linkStuff glob@4.5.3 has C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules as its parent node_modules
+278 verbose linkBins glob@4.5.3
+279 verbose linkMans glob@4.5.3
+280 verbose rebuildBundles glob@4.5.3
+281 verbose rebuildBundles [ 'inflight', 'inherits', 'minimatch', 'once' ]
+282 info install glob@4.5.3
+283 info postinstall glob@4.5.3
+284 verbose rebuild bundle C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\graceful-fs
+285 info build C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\graceful-fs
+286 info preinstall graceful-fs@3.0.8
+287 info linkStuff graceful-fs@3.0.8
+288 silly linkStuff graceful-fs@3.0.8 has C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules as its parent node_modules
+289 verbose linkBins graceful-fs@3.0.8
+290 verbose linkMans graceful-fs@3.0.8
+291 verbose rebuildBundles graceful-fs@3.0.8
+292 info install graceful-fs@3.0.8
+293 info postinstall graceful-fs@3.0.8
+294 verbose rebuild bundle C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\handlebars
+295 info build C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\handlebars
+296 info preinstall handlebars@2.0.0
+297 info linkStuff handlebars@2.0.0
+298 silly linkStuff handlebars@2.0.0 has C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules as its parent node_modules
+299 verbose linkBins handlebars@2.0.0
+300 verbose link bins [ { handlebars: 'bin/handlebars' },
+300 verbose link bins   'C:\\Users\\Sam\\Desktop\\boilerplate\\node_modules\\bower\\node_modules\\.bin',
+300 verbose link bins   false ]
+301 verbose linkMans handlebars@2.0.0
+302 verbose rebuildBundles handlebars@2.0.0
+303 verbose rebuildBundles [ 'optimist', 'uglify-js' ]
+304 info install handlebars@2.0.0
+305 info postinstall handlebars@2.0.0
+306 verbose rebuild bundle C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\inquirer
+307 info build C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\inquirer
+308 info preinstall inquirer@0.10.0
+309 info linkStuff inquirer@0.10.0
+310 silly linkStuff inquirer@0.10.0 has C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules as its parent node_modules
+311 verbose linkBins inquirer@0.10.0
+312 verbose linkMans inquirer@0.10.0
+313 verbose rebuildBundles inquirer@0.10.0
+314 verbose rebuildBundles [ 'ansi-escapes',
+314 verbose rebuildBundles   'ansi-regex',
+314 verbose rebuildBundles   'cli-cursor',
+314 verbose rebuildBundles   'cli-width',
+314 verbose rebuildBundles   'figures',
+314 verbose rebuildBundles   'lodash',
+314 verbose rebuildBundles   'readline2',
+314 verbose rebuildBundles   'run-async',
+314 verbose rebuildBundles   'rx-lite',
+314 verbose rebuildBundles   'strip-ansi',
+314 verbose rebuildBundles   'through' ]
+315 info install inquirer@0.10.0
+316 info postinstall inquirer@0.10.0
+317 verbose rebuild bundle C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\insight
+318 info build C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\insight
+319 info preinstall insight@0.7.0
+320 info linkStuff insight@0.7.0
+321 silly linkStuff insight@0.7.0 has C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules as its parent node_modules
+322 verbose linkBins insight@0.7.0
+323 verbose linkMans insight@0.7.0
+324 verbose rebuildBundles insight@0.7.0
+325 verbose rebuildBundles [ 'async',
+325 verbose rebuildBundles   'configstore',
+325 verbose rebuildBundles   'lodash.debounce',
+325 verbose rebuildBundles   'object-assign',
+325 verbose rebuildBundles   'os-name',
+325 verbose rebuildBundles   'tough-cookie' ]
+326 info install insight@0.7.0
+327 info postinstall insight@0.7.0
+328 verbose rebuild bundle C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\is-root
+329 info build C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\is-root
+330 info preinstall is-root@1.0.0
+331 info linkStuff is-root@1.0.0
+332 silly linkStuff is-root@1.0.0 has C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules as its parent node_modules
+333 verbose linkBins is-root@1.0.0
+334 verbose linkMans is-root@1.0.0
+335 verbose rebuildBundles is-root@1.0.0
+336 info install is-root@1.0.0
+337 info postinstall is-root@1.0.0
+338 verbose rebuild bundle C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\junk
+339 info build C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\junk
+340 info preinstall junk@1.0.2
+341 info linkStuff junk@1.0.2
+342 silly linkStuff junk@1.0.2 has C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules as its parent node_modules
+343 verbose linkBins junk@1.0.2
+344 verbose linkMans junk@1.0.2
+345 verbose rebuildBundles junk@1.0.2
+346 info install junk@1.0.2
+347 info postinstall junk@1.0.2
+348 verbose rebuild bundle C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\lockfile
+349 info build C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\lockfile
+350 info preinstall lockfile@1.0.1
+351 info linkStuff lockfile@1.0.1
+352 silly linkStuff lockfile@1.0.1 has C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules as its parent node_modules
+353 verbose linkBins lockfile@1.0.1
+354 verbose linkMans lockfile@1.0.1
+355 verbose rebuildBundles lockfile@1.0.1
+356 info install lockfile@1.0.1
+357 info postinstall lockfile@1.0.1
+358 verbose rebuild bundle C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\lru-cache
+359 info build C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\lru-cache
+360 info preinstall lru-cache@2.7.3
+361 info linkStuff lru-cache@2.7.3
+362 silly linkStuff lru-cache@2.7.3 has C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules as its parent node_modules
+363 verbose linkBins lru-cache@2.7.3
+364 verbose linkMans lru-cache@2.7.3
+365 verbose rebuildBundles lru-cache@2.7.3
+366 info install lru-cache@2.7.3
+367 info postinstall lru-cache@2.7.3
+368 verbose rebuild bundle C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\md5-hex
+369 info build C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\md5-hex
+370 info preinstall md5-hex@1.1.0
+371 info linkStuff md5-hex@1.1.0
+372 silly linkStuff md5-hex@1.1.0 has C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules as its parent node_modules
+373 verbose linkBins md5-hex@1.1.0
+374 verbose linkMans md5-hex@1.1.0
+375 verbose rebuildBundles md5-hex@1.1.0
+376 verbose rebuildBundles [ 'md5-o-matic' ]
+377 info install md5-hex@1.1.0
+378 info postinstall md5-hex@1.1.0
+379 verbose rebuild bundle C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\mkdirp
+380 info build C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\mkdirp
+381 info preinstall mkdirp@0.5.0
+382 info linkStuff mkdirp@0.5.0
+383 silly linkStuff mkdirp@0.5.0 has C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules as its parent node_modules
+384 verbose linkBins mkdirp@0.5.0
+385 verbose link bins [ { mkdirp: 'bin/cmd.js' },
+385 verbose link bins   'C:\\Users\\Sam\\Desktop\\boilerplate\\node_modules\\bower\\node_modules\\.bin',
+385 verbose link bins   false ]
+386 verbose linkMans mkdirp@0.5.0
+387 verbose rebuildBundles mkdirp@0.5.0
+388 verbose rebuildBundles [ 'minimist' ]
+389 info install mkdirp@0.5.0
+390 info postinstall mkdirp@0.5.0
+391 verbose rebuild bundle C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\mout
+392 info build C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\mout
+393 info preinstall mout@0.11.1
+394 info linkStuff mout@0.11.1
+395 silly linkStuff mout@0.11.1 has C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules as its parent node_modules
+396 verbose linkBins mout@0.11.1
+397 verbose linkMans mout@0.11.1
+398 verbose rebuildBundles mout@0.11.1
+399 info install mout@0.11.1
+400 info postinstall mout@0.11.1
+401 verbose rebuild bundle C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\nopt
+402 info build C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\nopt
+403 info preinstall nopt@3.0.6
+404 info linkStuff nopt@3.0.6
+405 silly linkStuff nopt@3.0.6 has C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules as its parent node_modules
+406 verbose linkBins nopt@3.0.6
+407 verbose link bins [ { nopt: './bin/nopt.js' },
+407 verbose link bins   'C:\\Users\\Sam\\Desktop\\boilerplate\\node_modules\\bower\\node_modules\\.bin',
+407 verbose link bins   false ]
+408 verbose linkMans nopt@3.0.6
+409 verbose rebuildBundles nopt@3.0.6
+410 info install nopt@3.0.6
+411 info postinstall nopt@3.0.6
+412 verbose rebuild bundle C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\opn
+413 info build C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\opn
+414 info preinstall opn@1.0.2
+415 info linkStuff opn@1.0.2
+416 silly linkStuff opn@1.0.2 has C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules as its parent node_modules
+417 verbose linkBins opn@1.0.2
+418 verbose link bins [ { opn: 'cli.js' },
+418 verbose link bins   'C:\\Users\\Sam\\Desktop\\boilerplate\\node_modules\\bower\\node_modules\\.bin',
+418 verbose link bins   false ]
+419 verbose linkMans opn@1.0.2
+420 verbose rebuildBundles opn@1.0.2
+421 info install opn@1.0.2
+422 info postinstall opn@1.0.2
+423 verbose rebuild bundle C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\p-throttler
+424 info build C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\p-throttler
+425 info preinstall p-throttler@0.1.1
+426 info linkStuff p-throttler@0.1.1
+427 silly linkStuff p-throttler@0.1.1 has C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules as its parent node_modules
+428 verbose linkBins p-throttler@0.1.1
+429 verbose linkMans p-throttler@0.1.1
+430 verbose rebuildBundles p-throttler@0.1.1
+431 verbose rebuildBundles [ 'q' ]
+432 info install p-throttler@0.1.1
+433 info postinstall p-throttler@0.1.1
+434 verbose rebuild bundle C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\promptly
+435 info build C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\promptly
+436 info preinstall promptly@0.2.0
+437 info linkStuff promptly@0.2.0
+438 silly linkStuff promptly@0.2.0 has C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules as its parent node_modules
+439 verbose linkBins promptly@0.2.0
+440 verbose linkMans promptly@0.2.0
+441 verbose rebuildBundles promptly@0.2.0
+442 verbose rebuildBundles [ 'read' ]
+443 info install promptly@0.2.0
+444 info postinstall promptly@0.2.0
+445 verbose rebuild bundle C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\q
+446 info build C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\q
+447 info preinstall q@1.4.1
+448 info linkStuff q@1.4.1
+449 silly linkStuff q@1.4.1 has C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules as its parent node_modules
+450 verbose linkBins q@1.4.1
+451 verbose linkMans q@1.4.1
+452 verbose rebuildBundles q@1.4.1
+453 info install q@1.4.1
+454 info postinstall q@1.4.1
+455 verbose rebuild bundle C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\request
+456 info build C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\request
+457 info preinstall request@2.53.0
+458 info linkStuff request@2.53.0
+459 silly linkStuff request@2.53.0 has C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules as its parent node_modules
+460 verbose linkBins request@2.53.0
+461 verbose linkMans request@2.53.0
+462 verbose rebuildBundles request@2.53.0
+463 verbose rebuildBundles [ 'aws-sign2',
+463 verbose rebuildBundles   'bl',
+463 verbose rebuildBundles   'caseless',
+463 verbose rebuildBundles   'combined-stream',
+463 verbose rebuildBundles   'forever-agent',
+463 verbose rebuildBundles   'form-data',
+463 verbose rebuildBundles   'hawk',
+463 verbose rebuildBundles   'http-signature',
+463 verbose rebuildBundles   'isstream',
+463 verbose rebuildBundles   'json-stringify-safe',
+463 verbose rebuildBundles   'mime-types',
+463 verbose rebuildBundles   'node-uuid',
+463 verbose rebuildBundles   'oauth-sign',
+463 verbose rebuildBundles   'qs',
+463 verbose rebuildBundles   'stringstream',
+463 verbose rebuildBundles   'tough-cookie',
+463 verbose rebuildBundles   'tunnel-agent' ]
+464 info install request@2.53.0
+465 info postinstall request@2.53.0
+466 verbose rebuild bundle C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\request-progress
+467 info build C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\request-progress
+468 info preinstall request-progress@0.3.1
+469 info linkStuff request-progress@0.3.1
+470 silly linkStuff request-progress@0.3.1 has C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules as its parent node_modules
+471 verbose linkBins request-progress@0.3.1
+472 verbose linkMans request-progress@0.3.1
+473 verbose rebuildBundles request-progress@0.3.1
+474 verbose rebuildBundles [ 'throttleit' ]
+475 info install request-progress@0.3.1
+476 info postinstall request-progress@0.3.1
+477 verbose rebuild bundle C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\retry
+478 info build C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\retry
+479 info preinstall retry@0.6.1
+480 info linkStuff retry@0.6.1
+481 silly linkStuff retry@0.6.1 has C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules as its parent node_modules
+482 verbose linkBins retry@0.6.1
+483 verbose linkMans retry@0.6.1
+484 verbose rebuildBundles retry@0.6.1
+485 info install retry@0.6.1
+486 info postinstall retry@0.6.1
+487 verbose rebuild bundle C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\rimraf
+488 info build C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\rimraf
+489 info preinstall rimraf@2.4.4
+490 info linkStuff rimraf@2.4.4
+491 silly linkStuff rimraf@2.4.4 has C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules as its parent node_modules
+492 verbose linkBins rimraf@2.4.4
+493 verbose link bins [ { rimraf: './bin.js' },
+493 verbose link bins   'C:\\Users\\Sam\\Desktop\\boilerplate\\node_modules\\bower\\node_modules\\.bin',
+493 verbose link bins   false ]
+494 verbose linkMans rimraf@2.4.4
+495 verbose rebuildBundles rimraf@2.4.4
+496 verbose rebuildBundles [ 'glob' ]
+497 info install rimraf@2.4.4
+498 info postinstall rimraf@2.4.4
+499 verbose rebuild bundle C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\semver
+500 info build C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\semver
+501 info preinstall semver@2.3.2
+502 info linkStuff semver@2.3.2
+503 silly linkStuff semver@2.3.2 has C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules as its parent node_modules
+504 verbose linkBins semver@2.3.2
+505 verbose link bins [ { semver: './bin/semver' },
+505 verbose link bins   'C:\\Users\\Sam\\Desktop\\boilerplate\\node_modules\\bower\\node_modules\\.bin',
+505 verbose link bins   false ]
+506 verbose linkMans semver@2.3.2
+507 verbose rebuildBundles semver@2.3.2
+508 info install semver@2.3.2
+509 info postinstall semver@2.3.2
+510 verbose rebuild bundle C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\shell-quote
+511 info build C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\shell-quote
+512 info preinstall shell-quote@1.4.3
+513 info linkStuff shell-quote@1.4.3
+514 silly linkStuff shell-quote@1.4.3 has C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules as its parent node_modules
+515 verbose linkBins shell-quote@1.4.3
+516 verbose linkMans shell-quote@1.4.3
+517 verbose rebuildBundles shell-quote@1.4.3
+518 verbose rebuildBundles [ 'array-filter', 'array-map', 'array-reduce', 'jsonify' ]
+519 info install shell-quote@1.4.3
+520 info postinstall shell-quote@1.4.3
+521 verbose rebuild bundle C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\stringify-object
+522 info build C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\stringify-object
+523 info preinstall stringify-object@1.0.1
+524 info linkStuff stringify-object@1.0.1
+525 silly linkStuff stringify-object@1.0.1 has C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules as its parent node_modules
+526 verbose linkBins stringify-object@1.0.1
+527 verbose linkMans stringify-object@1.0.1
+528 verbose rebuildBundles stringify-object@1.0.1
+529 info install stringify-object@1.0.1
+530 info postinstall stringify-object@1.0.1
+531 verbose rebuild bundle C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\tar-fs
+532 info build C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\tar-fs
+533 info preinstall tar-fs@1.8.1
+534 info linkStuff tar-fs@1.8.1
+535 silly linkStuff tar-fs@1.8.1 has C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules as its parent node_modules
+536 verbose linkBins tar-fs@1.8.1
+537 verbose linkMans tar-fs@1.8.1
+538 verbose rebuildBundles tar-fs@1.8.1
+539 verbose rebuildBundles [ 'pump', 'tar-stream' ]
+540 info install tar-fs@1.8.1
+541 info postinstall tar-fs@1.8.1
+542 verbose rebuild bundle C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\tmp
+543 info build C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\tmp
+544 info preinstall tmp@0.0.24
+545 info linkStuff tmp@0.0.24
+546 silly linkStuff tmp@0.0.24 has C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules as its parent node_modules
+547 verbose linkBins tmp@0.0.24
+548 verbose linkMans tmp@0.0.24
+549 verbose rebuildBundles tmp@0.0.24
+550 info install tmp@0.0.24
+551 info postinstall tmp@0.0.24
+552 verbose rebuild bundle C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\update-notifier
+553 info build C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\update-notifier
+554 info preinstall update-notifier@0.3.2
+555 info linkStuff update-notifier@0.3.2
+556 silly linkStuff update-notifier@0.3.2 has C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules as its parent node_modules
+557 verbose linkBins update-notifier@0.3.2
+558 verbose linkMans update-notifier@0.3.2
+559 verbose rebuildBundles update-notifier@0.3.2
+560 verbose rebuildBundles [ 'is-npm', 'latest-version', 'semver-diff', 'string-length' ]
+561 info install update-notifier@0.3.2
+562 info postinstall update-notifier@0.3.2
+563 verbose rebuild bundle C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\user-home
+564 info build C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\user-home
+565 info preinstall user-home@1.1.1
+566 info linkStuff user-home@1.1.1
+567 silly linkStuff user-home@1.1.1 has C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules as its parent node_modules
+568 verbose linkBins user-home@1.1.1
+569 verbose link bins [ { 'user-home': 'cli.js' },
+569 verbose link bins   'C:\\Users\\Sam\\Desktop\\boilerplate\\node_modules\\bower\\node_modules\\.bin',
+569 verbose link bins   false ]
+570 verbose linkMans user-home@1.1.1
+571 verbose rebuildBundles user-home@1.1.1
+572 info install user-home@1.1.1
+573 info postinstall user-home@1.1.1
+574 verbose rebuild bundle C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\which
+575 info build C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules\which
+576 info preinstall which@1.2.0
+577 info linkStuff which@1.2.0
+578 silly linkStuff which@1.2.0 has C:\Users\Sam\Desktop\boilerplate\node_modules\bower\node_modules as its parent node_modules
+579 verbose linkBins which@1.2.0
+580 verbose link bins [ { which: './bin/which' },
+580 verbose link bins   'C:\\Users\\Sam\\Desktop\\boilerplate\\node_modules\\bower\\node_modules\\.bin',
+580 verbose link bins   false ]
+581 verbose linkMans which@1.2.0
+582 verbose rebuildBundles which@1.2.0
+583 verbose rebuildBundles [ 'is-absolute' ]
+584 info install which@1.2.0
+585 info postinstall which@1.2.0
+586 info install bower@1.6.9
+587 info postinstall bower@1.6.9
+588 info install @
+589 info postinstall @
+590 verbose unsafe-perm in lifecycle true
+591 info @ Failed to exec postinstall script
+592 verbose stack Error: @ postinstall: `./node_modules/bower/bin/bower install && ./node_modules/grunt-cli/bin/grunt build`
+592 verbose stack Exit status 1
+592 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:214:16)
+592 verbose stack     at emitTwo (events.js:87:13)
+592 verbose stack     at EventEmitter.emit (events.js:172:7)
+592 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:24:14)
+592 verbose stack     at emitTwo (events.js:87:13)
+592 verbose stack     at ChildProcess.emit (events.js:172:7)
+592 verbose stack     at maybeClose (internal/child_process.js:818:16)
+592 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+593 verbose pkgid @
+594 verbose cwd C:\Users\Sam\Desktop\boilerplate
+595 error Windows_NT 6.3.9600
+596 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+597 error node v4.2.3
+598 error npm  v2.14.7
+599 error code ELIFECYCLE
+600 error @ postinstall: `./node_modules/bower/bin/bower install && ./node_modules/grunt-cli/bin/grunt build`
+600 error Exit status 1
+601 error Failed at the @ postinstall script './node_modules/bower/bin/bower install && ./node_modules/grunt-cli/bin/grunt build'.
+601 error This is most likely a problem with the  package,
+601 error not with npm itself.
+601 error Tell the author that this fails on your system:
+601 error     ./node_modules/bower/bin/bower install && ./node_modules/grunt-cli/bin/grunt build
+601 error You can get their info via:
+601 error     npm owner ls
+601 error There is likely additional logging output above.
+602 verbose exit [ 1, true ]

@@ -38,6 +38,11 @@ module.exports = function(grunt) {
                 message: "html has some changes"
             }
         },
+        templates: {
+        	options: {
+        		message: "templates has some updates"
+        	}
+        }
         // ------------
     });
 
